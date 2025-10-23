@@ -21,7 +21,7 @@ numberButtons.forEach(button => {
 });
 
 let firstValue = '';
-let operator = '';
+let operator = null;
 
 operatorButtons.forEach(button => {
     button.addEventListener('click', () => {
